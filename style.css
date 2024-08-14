@@ -1,0 +1,178 @@
+.header {
+  height: 625px;
+}
+
+.c-item {
+  height: 650px;
+
+}
+
+
+.c-item h1{
+    font: 60px "Poppins";
+    margin: 0 0 24px;
+}
+.c-item p{
+    font: 16px "Poppins";
+}
+.c-item button{
+    width: 167px;
+    height: 53px;
+    padding: 16px 24px;
+    font: 13px "Poppins";
+    color: #4f86F9;
+    background-color: #fff;
+}
+.c-item i{
+    font-size: 10px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  margin-top: 60px;
+}
+
+.services{
+    width: 449px;
+    height: 267px;
+}
+.flexbox{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #8c8c8c14;
+  position: relative;
+  top: 100px;
+}
+
+.serv,.serv2{
+  width: 300px;
+  height: 325px;
+  padding: 40px;
+  font-family: "Poppins";
+  background-color: white;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.serv h2,.serv2 h2{
+  font-size: 20px;
+}
+.serv p,.serv2 p{
+  font-size: 16px;
+  color: #8c8c8c;
+}
+.icon{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #4f86F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.serv2{
+  color: white;
+  background-color: #4f86F9;
+}
+.icon2{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f86F9;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about{
+  width: 582px;
+  height: 758px;
+  padding: 0 24px;
+  margin: 48px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins";
+}
+.serv2 p{
+  color: white !important;
+}
+
+.serv:hover{
+  
+    color: white;
+    background-color: #4f86F9;
+    p{
+      color: white;
+    }
+  
+  .icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4f86F9;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+}
+.nav-button{
+  display: none;
+}
+
+@media (max-width:767px) and (min-width:580px){
+  header{
+    background-color: #052c43;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-item{
+    display: none;
+  }
+  .nav-button{
+    margin-right: 15px;
+    display: block;
+    color: white;
+    position: relative;
+    right: -250px;
+  }
+  .union{
+    color: white;
+  }
+  .navbar-collapse{
+    background-color: #052c43;
+    z-index: 1;
+  }
+  .flexbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+  }
+  .c-item {
+    width: 100%;
+    height: 700px;
+  
+  }
+  .c-img{
+    width: 100%;
+    height: 100%;
+  }
+  .union{
+    position: relative;
+    left: -250px;
+  }
+}
